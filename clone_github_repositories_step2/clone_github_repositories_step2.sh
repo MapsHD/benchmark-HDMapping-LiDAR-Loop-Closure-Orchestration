@@ -44,7 +44,7 @@ PYTHON_REPOS=(
 clone_repo() {
   local repo_name="$1"  
   local branch_name="$2"    
-  local url="https://github.com/marcinmatecki/${repo_name}.git"
+  local url="https://github.com/MapsHD/${repo_name}.git"
   local dir_name=$(basename "$repo_name")
 
   if [ ! -d "$dir_name" ]; then
